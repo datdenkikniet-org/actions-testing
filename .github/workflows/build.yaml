@@ -1,0 +1,41 @@
+name: Run some tests
+run-name: Test
+on:
+  pull_request:
+  push:
+    branches: [main]
+env:
+  CONTAINER_NAME: json-container
+jobs:
+  one:
+    runs-on: self-hosted
+    steps:
+      - run: sleep 5
+  two:
+    runs-on: self-hosted
+    steps:
+      - run: sleep 5
+  three:
+    runs-on: self-hosted
+    steps:
+      - run: sleep 5
+  four:
+    runs-on: self-hosted
+    steps:
+      - run: sleep 5
+  five:
+    runs-on: self-hosted
+    steps:
+      - run: sleep 5
+  six:
+    runs-on: self-hosted
+    steps:
+      - run: sleep 5
+  seven:
+    runs-on: self-hosted
+    steps:
+      - run: sleep 5
+  eight:
+    runs-on: self-hosted
+    steps:
+      - run: sleep 5
