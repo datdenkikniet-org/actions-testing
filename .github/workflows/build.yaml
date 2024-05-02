@@ -8,7 +8,7 @@ env:
   CONTAINER_NAME: json-container
 jobs:
   one:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - run: sleep 5
   two:
